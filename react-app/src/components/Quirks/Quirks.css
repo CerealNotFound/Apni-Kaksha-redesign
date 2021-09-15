@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+#quirks-wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 2vw;
+  padding-left: 0;
+}
+
+#quirks-wrapper li{
+  margin-right: 1rem;
+}
+
+.quirk{
+  width: 14rem;
+  height: 14rem;
+  font-size: 1rem;
+  background: #ffffff40;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10%/10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#video-icon{
+  width: 5rem;
+  height: 5rem;
+  background: url('https://api.iconify.design/bx/bx-video.svg?color=white') no-repeat center center / contain; 
+}
+
+#video-quirk{
+  width: 95%;
+}
+
+#infinity-icon{
+  width: 6rem;
+  height: 6rem;
+  background: url('https://api.iconify.design/ion/infinite-outline.svg?color=white') no-repeat center center / contain;
+}
+
+#mobile-icon{
+  width: 5rem;
+  height: 5rem;
+  transform: translateY(0.5rem);
+  background: url('https://api.iconify.design/bytesize/mobile.svg?color=white') no-repeat center center / contain;
+}
+
+#access-quirk{
+  width: 95%;
+}
+
+@media screen and (max-width: 425px) {
+  #quirks-wrapper{
+    display: none;
+  }
+}

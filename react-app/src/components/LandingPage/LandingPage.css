@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+#landing-page-wrapper{
+  display: flex;
+  align-items: center; 
+  justify-content: space-evenly;
+  font-family: Poppins, sans-serif;
+  background: url("../../assets/Desktop.png") no-repeat center center / cover;
+  color: white;
+  width: 100vw;
+
+}
+
+#coder-png{
+  width: 25rem;
+  height: 25rem;
+}
+
+#flex-wrapper{
+  display: flex;
+  align-content: center; 
+  justify-content: center;
+  width: 30%;
+  padding-top: 5vw;
+}
+
+ul{
+  list-style: none;
+}
+
+#views-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+#views{
+  padding-left: 0.5rem;
+}
+
+#graph{
+  width: 2rem;
+  height: 2rem;
+  background: url('https://api.iconify.design/bi/graph-up.svg?color=white') no-repeat center center / contain;
+}
+
+#share-parent{
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: #ffffff20;
+  margin-top: 1vw;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms;
+}
+
+#share-parent:hover{
+  transform: scale(1.1);
+}
+
+#send{
+  width: 2rem;
+  height: 2rem;
+  background: url('https://api.iconify.design/ph/share-duotone.svg?color=white') no-repeat center center / contain;
+}
+
+@media screen and (max-width: 425px) {
+  #coder-png{
+    display: none;
+  }
+}

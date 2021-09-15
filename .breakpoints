@@ -1,0 +1,44 @@
+{
+  "files": {
+    "react-app/src/App.js": [
+      {
+        "id": "25a39fae-75f0-4abc-8874-f4c23f1bdba8",
+        "line": 10,
+        "version": 691,
+        "index": 119
+      }
+    ],
+    "react-app/src/assets/Wave/Wave.css": [
+      {
+        "id": "d9eb635b-abda-452c-897f-91e8f24b96eb",
+        "line": 1,
+        "version": 131,
+        "index": 0
+      }
+    ],
+    "react-app/src/components/Navbar/Navbar.js": [
+      {
+        "id": "2a504a00-29d8-4fc1-a820-357b566e269b",
+        "line": 1,
+        "version": 2633,
+        "index": 0
+      }
+    ],
+    "react-app/src/components/background/background": [
+      {
+        "id": "bb91069e-a57d-43ec-846a-f4ea7ea60a64",
+        "line": 9,
+        "version": 0,
+        "index": 104
+      }
+    ],
+    "react-app/src/pages/Home/Home.css": [
+      {
+        "id": "f73d0373-5520-4a15-a33f-bfcacd12255c",
+        "line": 1,
+        "version": 3239,
+        "index": 0
+      }
+    ]
+  }
+}
