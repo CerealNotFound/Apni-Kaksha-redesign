@@ -1,0 +1,104 @@
+.lecture-li{
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  padding: 0 1rem;
+  border-radius: 20px;
+  border: 1px solid #f8f8f8;
+  background: #ffffff20;
+  backdrop-filter: blur(20px);
+  margin-bottom: 1rem;
+}
+
+.lecture-title{
+  width: 60%;
+}
+
+.video-title-icon-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.li-title-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-video-wrapper{
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.intro-wrapper{
+  width: 100%;
+}
+
+
+.video-name{
+  font-weight: 200;
+  width: 100%;
+}
+
+.video-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-icon{
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  background: url('https://api.iconify.design/codicon/play-circle.svg?color=white') no-repeat center center / contain;
+}
+
+.modal-iframe{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff30;
+  backdrop-filter: blur(10px);
+}
+
+.modal-iframe iframe{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 50vh;
+  transform: translate(-50%, -50%);
+}
+
+.cross-modal{
+  position: absolute;
+  top: 15%;
+  left: 1rem;
+  margin-bottom: 5%;
+  width: 2rem;
+  height: 2rem;
+  background: url('https://api.iconify.design/gridicons/cross.svg?color=white') no-repeat center center / contain;
+}
+
+.caret-up{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  background: url('https://api.iconify.design/akar-icons/chevron-down.svg?color=white') no-repeat center center / contain;
+  transition: all 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.active{
+  transform: rotate(180deg);
+  background: url('https://api.iconify.design/akar-icons/chevron-down.svg?color=white') no-repeat center center / contain;
+}
+
+.lecture-time{
+  text-align: center;
+  width: 40%;
+}

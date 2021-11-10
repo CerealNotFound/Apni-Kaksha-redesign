@@ -1,41 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
 *{
   box-sizing: border-box;
+  font-family: Poppins, sans-serif;
 }
 
 #landing-page-wrapper{
   display: flex;
   align-items: center; 
   justify-content: space-evenly;
-  font-family: Poppins, sans-serif;
   background: url("../../assets/Desktop.png") no-repeat center center / cover;
   color: white;
   width: 100vw;
-
 }
 
-#coder-png{
+.images-png{
   width: 25rem;
   height: 25rem;
 }
 
-#flex-wrapper{
+#landing-page-flex-wrapper{
   display: flex;
   align-content: center; 
   justify-content: center;
-  width: 30%;
+  width: 100vw;
   padding-top: 5vw;
 }
 
-ul{
+#landing-page-ul{
   list-style: none;
+  width: 60vw;
 }
 
 #views-wrapper{
   display: flex;
   align-items: center;
-  margin-top: 1vw;
+  margin-top: 1rem;
 }
 
 #views{
@@ -58,7 +58,7 @@ ul{
   border-radius: 12px;
   backdrop-filter: blur(20px);
   background: #ffffff20;
-  margin-top: 1vw;
+  margin-top: 1rem;
   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 300ms;
 }
 
@@ -72,8 +72,56 @@ ul{
   background: url('https://api.iconify.design/ph/share-duotone.svg?color=white') no-repeat center center / contain;
 }
 
-@media screen and (max-width: 425px) {
-  #coder-png{
+@media screen and (min-width: 1440px) {
+  #landing-page-wrapper{
+    padding-bottom: 5vw;
+  }
+
+  #landing-page-flex-wrapper{
+    width: 70%;
+    padding-top: 3.5vw;
+  }
+
+  .images-png{
+    width: 35rem;
+    height: 35rem;
+    transform: translateY(5vw);
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .images-png{
+    transform: translateY(10.8vw);
+  }
+}
+
+@media screen and (max-width: 975px) {
+  #landing-page-flex-wrapper{
+    width: 100vw;
+    justify-content: flex-start;
+  }
+
+  #landing-page-ul{
+    width: 100%;  
+  }
+
+  .images-png{
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #landing-page-flex-wrapper{
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #landing-page-ul{
+    padding-left: 1rem;
+  }
+
+  #landing-page-flex-wrapper{
+    margin-top: 2rem;
   }
 }

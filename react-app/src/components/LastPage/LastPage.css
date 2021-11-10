@@ -1,0 +1,53 @@
+#last-page-wrapper {
+  width: 100vw;
+  color: white;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#last-page-main {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin: 5rem;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  justify-content: space-evenly;
+  background: #ffffff50;
+  backdrop-filter: blur(20px);
+}
+
+#last-text {
+  width: 25%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 975px) {
+  #last-text {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #last-page-main{
+    flex-direction: column;
+  }
+  #last-text {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #last-page-main {
+    width: 90%;
+  }
+
+  #last-text {
+    width: 100%;
+  }
+}
